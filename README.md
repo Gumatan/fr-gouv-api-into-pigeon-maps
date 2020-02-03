@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## App Description
+
+This app displays the map area of the user address input. Using [french gouv Address API](https://geo.api.gouv.fr/adresse) to fetch coordinates corresponding to the user query and displaying map using [pigeon-maps](https://github.com/mariusandra/pigeon-maps) and [openstreetmap](https://www.openstreetmap.org/) [humanitairian tiles](https://www.hotosm.org/).
+Additionnaly, the user can choose to save map markers to his local storage to be able to retrieve them upon closing, and opening browser.
+
 ## Available Scripts
 
 In the project directory, you can run:
